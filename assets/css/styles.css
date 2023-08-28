@@ -50,9 +50,6 @@ body {
   @media screen and (max-width:480px) {
     h1{
       font-size: 1.4rem;
-      background-color: red;
-      width: fit-content;
-      padding: 0%;
-      margin: 0%;
+      line-height: 2;
     }
   }
