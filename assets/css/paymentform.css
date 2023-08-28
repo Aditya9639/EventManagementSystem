@@ -143,3 +143,22 @@ transform: scale(1.05) translateY(-3px);
     border-radius: 5px;
     text-align: center;
 }
+@media (max-width:480px) {
+  .rightside{
+    width: 60%;
+    margin: 30px auto;
+  }
+  .expcvv{
+    display: flex;
+    flex-direction: column;
+  }
+  h1{
+    font-size: 1.4rem;
+  }
+  h2{
+    font-size: 1.2rem;
+  }
+  p,.button, .inputbox{
+    font-size: 0.8rem;
+  }
+}
