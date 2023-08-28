@@ -1,0 +1,145 @@
+
+body {
+  font-family: 'Roboto', sans-serif!important;
+margin:0;
+padding:0;
+box-sizing: border-box;
+
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainscreen
+{
+  background-image: url("https://wallpaperaccess.com/full/3063067.png");
+  color:#963E7B;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightside {
+  background-color: #ffffff;
+  width: 40%;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 4px 3px 20px #3535358c;
+}
+
+p{
+  display:block;
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin: .8rem 0;
+}
+
+.inputbox
+{
+  color:#030303;
+width: 100%;
+  padding: 0.5rem;
+  border: none;
+  border-bottom: 1.5px solid #ccc;
+  margin-bottom: 1rem;
+  border-radius: 0.3rem;
+  font-family: 'Roboto', sans-serif;
+  color: #615a5a;
+  font-size: 1.1rem;
+  font-weight: 500;
+outline:none;
+}
+
+.expcvv {
+  display:flex;
+  justify-content: space-between;
+  padding-top: 0.6rem;
+}
+
+.expcvv_text{
+  padding-right: 1rem;
+}
+.expcvv_text2{
+  padding:0 1rem;
+}
+
+.button{
+  background: linear-gradient(
+135deg
+, #753370 0%, #298096 100%);
+  padding: 15px;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  width:100%;
+  letter-spacing: .11rem;
+  outline:none;
+}
+
+.button:hover
+{
+transform: scale(1.05) translateY(-3px);
+  box-shadow: 3px 3px 6px #38373785;
+}
+
+@media only screen and (max-width: 1000px) {
+  .card{
+      flex-direction: column;
+      width: auto;
+      justify-content: center;
+      
+      
+      
+    
+  }
+ 
+  
+  .leftside{
+      border-top-right-radius: 0;
+      border-bottom-left-radius: 0;
+    border-top-right-radius:0;
+    
+  }
+
+  .rightside{
+      border-bottom-left-radius: 1.5rem;
+      padding:0.5rem 3rem 3rem 2rem;
+    border-radius:0;
+  }
+}
+
+.button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
