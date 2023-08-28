@@ -3,24 +3,28 @@ const eventContainer = document.getElementById('event-container');
 const events = [
   {
     title: 'Event 1',
+    name: 'Gaming club',
     date: 'August 31, 2023',
     location: 'City Hall',
     imageUrl: 'event1.jpeg',
   },
   {
     title: 'Event 2',
+    name: 'Dj night',
     date: 'September 15, 2023',
     location: 'Convention Center',
     imageUrl: 'event2.jpeg',
   },
 {
     title: 'Event 3',
+    name: 'Food fest',
     date: 'October 31, 2023',
     location: 'Swagath grand',
     imageUrl: 'event3.jpeg',
   },
 {
     title: 'Event 4',
+    name: 'Fashion show',
     date: 'November 25, 2023',
     location: 'subham hall',
     imageUrl: 'event4.jpeg',
@@ -41,6 +45,10 @@ events.forEach(event => {
   const title = document.createElement('h2');
   title.textContent = event.title;
   eventCard.appendChild(title);
+
+  const name = document.createElement('p');
+  name.textContent = event.name;
+  eventCard.appendChild(name);
 
   const date = document.createElement('p');
   date.textContent = `Date: ${event.date}`;
